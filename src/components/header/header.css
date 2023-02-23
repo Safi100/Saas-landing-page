@@ -1,0 +1,15 @@
+.header{
+    min-height: 100vh;
+}
+.top_header{
+    width: 100%;
+    position: absolute;
+}
+.header .wrapper{
+    min-height: 100vh;
+    background: url('../../assets/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+    background-position-y: 100px;
+}
