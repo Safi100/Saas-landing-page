@@ -1,0 +1,34 @@
+.features{
+padding: 100px 0;
+}
+.features .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 60px;
+    justify-content: center;
+}
+.features .feature{
+    border: 1px solid #E9E9E9;
+    padding: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+}
+.feature .feature__frame{
+    width: 60px;
+    margin-top: -60px;
+}
+.feature .feature__frame img{
+    width: 100%;
+}
+.feature .feature__header{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.feature .feature__body{
+    color: #757095;
+}
+@media screen and (max-width: 1000px) {
+    .features .feature{
+        flex-basis: calc(100% / 2 - 30px);
+    }
+}
