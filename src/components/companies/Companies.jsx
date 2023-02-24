@@ -14,8 +14,8 @@ const Companies = () => {
             <div className="wrapper">
                 <h2>Over 32k+ software businesses growing with Ar Shakir.</h2>
                 <div className="companies_row">
-                    {companies.map(comp_src => (
-                    <Company img={comp_src}/>
+                    {companies.map((comp_src, index) => (
+                    <Company img={comp_src} key={index} />
                     ))} 
                 </div>
             </div>
