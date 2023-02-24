@@ -6,3 +6,33 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
+.wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.button{
+    padding: 12px 28px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.blur{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    display: none;
+}
