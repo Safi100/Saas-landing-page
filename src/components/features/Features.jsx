@@ -25,9 +25,13 @@ const Featues = () => {
     return (
         <div className='features'>
             <div className="wrapper">
-                {features.map((feature, index) => (
-                    <Feature image={feature.img} header={feature.header} body={feature.body}  key={index}/> 
-                ))}
+                <p>Why Financy</p>
+                <h2>Specially designed for payments</h2>
+                <div className="features_container">
+                    {features.map((feature, index) => (
+                        <Feature image={feature.img} header={feature.header} body={feature.body}  key={index}/> 
+                    ))}
+                </div>
             </div>
         </div>
     );

@@ -1,12 +1,28 @@
 .features{
 padding: 100px 0;
 }
-.features .wrapper{
+.features .features_container{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     row-gap: 60px;
     justify-content: center;
+}
+.features .wrapper > p {
+    color: #3734A9;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.features .wrapper > h2 {
+    font-weight: 800;
+    font-size: 40px;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
 }
 .features .feature{
     border: 1px solid #E9E9E9;
@@ -30,5 +46,15 @@ padding: 100px 0;
 @media screen and (max-width: 1000px) {
     .features .feature{
         flex-basis: calc(100% / 2 - 30px);
+    }
+}
+@media screen and (max-width: 675px) {
+    .features .feature{
+        flex-basis: calc(100% / 1);
+    }
+}
+@media screen and (max-width: 413px) {
+    .features .wrapper > h2{
+        font-size: 30px;
     }
 }
