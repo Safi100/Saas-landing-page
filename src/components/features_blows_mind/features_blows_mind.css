@@ -32,9 +32,10 @@
 }
 .features_blows_mind .row > .FBM h2{
     margin-bottom: 20px;
+    max-width: 295px;
 }
 .features_blows_mind .FBM p {
-    max-width: 350px;
+    max-width: 525px;
 }
 .features_blows_mind .two_FBM{
     display: flex;
@@ -43,4 +44,56 @@
 }
 .features_blows_mind .two_FBM .FBM{
     padding: 30px 25px;
+}
+
+@media screen and (max-width:1309px) {
+    .features_blows_mind .row .two_FBM .FBM:last-child h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1179px) {
+    .features_blows_mind .row {
+        flex-wrap: wrap;
+    }
+    .features_blows_mind .row > *{
+        flex-basis: calc(100% / 2 - 30px);
+    }
+    .features_blows_mind .two_FBM{
+        gap: 30px;
+        flex-basis: calc(100% / 1 - 30px);
+        flex-direction: row;
+    }
+    .features_blows_mind .two_FBM .FBM{
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:775px) {
+    .features_blows_mind .wrapper > h2{
+        max-width: 500px;
+    }
+    .features_blows_mind .row > *{
+        flex-basis: calc(100% / 1);
+    }
+    .features_blows_mind .two_FBM{
+        gap: 30px;
+        flex-basis: calc(100% / 1);
+        flex-direction: row;
+    }
+    .features_blows_mind .two_FBM .FBM{
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:683px) {
+    .features_blows_mind .two_FBM{
+        flex-wrap: wrap;
+    }
+    .features_blows_mind .two_FBM .FBM{
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .features_blows_mind .wrapper > h2{
+        font-size: 25px;
+    }
 }
