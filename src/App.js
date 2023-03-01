@@ -5,6 +5,7 @@ import Features from './components/features/Features'
 import Content from './components/content/Content'
 import Financial from './components/financial/Financial'
 import FeaturesBlowsMind from './components/features_blows_mind/Features_blows_mind'
+import Payment from './components/payment/Payment'
 import './app.css'
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Content />
             <Financial />
             <FeaturesBlowsMind />
+            <Payment />
         </>
     )
 }
