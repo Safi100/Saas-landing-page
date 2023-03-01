@@ -6,6 +6,7 @@ import Content from './components/content/Content'
 import Financial from './components/financial/Financial'
 import FeaturesBlowsMind from './components/features_blows_mind/Features_blows_mind'
 import Payment from './components/payment/Payment'
+import SignUp from './components/signUp/SignUp'
 import './app.css'
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <Financial />
             <FeaturesBlowsMind />
             <Payment />
+            <SignUp />
         </>
     )
 }
