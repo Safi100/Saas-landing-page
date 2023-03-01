@@ -1,0 +1,40 @@
+.payment{
+
+}
+.payment .wrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.payment .wrapper > * {
+    flex-basis: 50%;
+}
+.payment .wrapper .image_div img {
+    width: 100%;
+    display: block;
+}
+.payment_info{
+    padding-top: 70px;
+}
+.payment_info .heading_small{
+    text-transform: uppercase;
+    color: #3734A9;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.payment_info h2{
+    font-weight: 800;
+    font-size: 40px;
+    max-width: 500px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.payment_info .payment_body{
+    color: #757095;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+.payment_info button{
+    color: #fff;
+    background: #3734A9;
+}
