@@ -38,3 +38,36 @@
     color: #fff;
     background: #3734A9;
 }
+@media (max-width: 1045px ) and (min-width:1000px ) {
+    .payment_info h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .payment .image_div{
+        display: none;
+    }
+    .payment_info{
+        flex-basis: 100% !important;
+        padding: 0;
+    }
+    .payment_info h2{
+        font-size: 50px;
+        max-width: 600px;
+        line-height: 55px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:618px) {
+    .payment_info h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 585px){
+    .payment_info h2{
+        font-size: 30px;
+        line-height: unset;
+    }
+}
