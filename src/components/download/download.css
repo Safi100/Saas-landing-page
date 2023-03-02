@@ -1,0 +1,57 @@
+.download{
+    padding: 100px 0;
+}
+.download .wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.download div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.download div button:first-child{
+    background: #3734A9;
+}
+.download div button:last-child{
+    background: #FF7F5C;
+}
+.download button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 28px;
+}
+.download button img {
+    display: block;
+}
+.download .heading_paragraph{
+    text-transform: uppercase;
+    color: #3734A9;
+    font-weight: 800;
+}
+.download h2{
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.download_body{
+    color: #757095;
+}
+@media screen and (max-width: 610px) {
+    .download h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .download h2{
+        font-size: 25px;
+    }
+}
