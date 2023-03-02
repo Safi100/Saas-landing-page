@@ -1,8 +1,9 @@
 import React from 'react';
-
+import formElement from '../../assets/form_element.png'
 const Form = () => {
     return (
-        <div className='sign_form'>
+        <form className='sign_form'>
+            <img className='form_element' src={formElement} alt="formElement" />
             <div>
                 <label htmlFor="">NAME:</label>
                 <input type="text" placeholder='Full Name' />
@@ -18,7 +19,7 @@ const Form = () => {
             <div>
                 <button className='button'>Sign Up</button>
             </div>
-        </div>
+        </form>
     );
 }
 
