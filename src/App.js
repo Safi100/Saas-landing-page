@@ -7,6 +7,7 @@ import Financial from './components/financial/Financial'
 import FeaturesBlowsMind from './components/features_blows_mind/Features_blows_mind'
 import Payment from './components/payment/Payment'
 import SignUp from './components/signUp/SignUp'
+import Download from './components/download/Download'
 import './app.css'
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
             <FeaturesBlowsMind />
             <Payment />
             <SignUp />
+            <Download />
         </>
     )
 }
