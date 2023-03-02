@@ -1,16 +1,79 @@
+.sign_up{
+    background: #4F46BA;
+    padding: 100px 0;
+    padding-bottom: 130px;
+    margin-top: 200px;
+    position: relative;
+}
 .sign_form{
     width: 100%;
+    margin-top: -230px;
     max-width: 420px;
     background: #F6F9FF;
     padding: 40px 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: relative;
+    
+}
+.sign_form::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 40px solid transparent;
+    border-left: 40px solid #4F46BA;
+    width: 0;
+}
+.form_element{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: -30px;
+    right: -25px;
+}
+
+.sign_up{
+
+}
+.sign_up .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.sign_up .wrapper > * {
+    flex-basis: 50%;
+}
+.sign_up div:first-child {
+    display: flex;
+    align-items: center;
+}
+.sign_up h2{
+    position: relative;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+.sign_up h2::after{
+    content: '';
+    position: absolute;
+    background: url('../../assets/vector.png');
+    width: 200px;
+    height: 170px;
+    background-repeat: no-repeat;
+    right: 36%;
+    /* right: 213px; */
 }
 .sign_form div{
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+.sign_form div label {
+    color: #808285;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 .sign_form div input{
     border: 0;
@@ -27,4 +90,14 @@
     border-radius: 0px;
     background: #000;
     color: #fff;
+}
+.top, .bottom{
+    position: absolute;
+    left: 0;
+}
+.top{
+    top: 0;
+}
+.bottom{
+    bottom: 0;
 }
