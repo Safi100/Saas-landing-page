@@ -20,7 +20,7 @@
 ul, .sign_div{
     gap: 30px;
 }
-.sign_div  .sign_up{
+.sign_div  .sign_up_btn{
     background: #4F46BA;
     color: #fff;
 }

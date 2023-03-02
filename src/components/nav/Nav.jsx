@@ -17,7 +17,7 @@ const Nav = () => {
             </ul>
             <div className="sign_div">
                 <a href="/">Sign in</a>
-                <a className='button sign_up' href="/">Start Free</a>
+                <a className='button sign_up_btn' href="/">Start Free</a>
             </div>
             <div className={`mobile_nav ${open ? '' : 'hide'}`}>
             <ul>
