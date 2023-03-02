@@ -101,3 +101,46 @@
 .bottom{
     bottom: 0;
 }
+@media screen and (max-width:1234px) {
+    .sign_up h2{
+        font-size: 45px;
+    }
+    .sign_up h2::after{
+        right: 0;
+    }
+}
+@media screen and (max-width:1141px) {
+    .sign_up h2::after{
+        right: 43%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .sign_up{
+        margin-top: 100px;
+        padding: 120px 0;
+        overflow: hidden;
+    }
+    .sign_up h2{
+        max-width: 650px;
+    }
+    .sign_up h2::after{
+        content: unset;
+    }
+    .sign_up .wrapper{
+        flex-direction: column;
+    }
+    .sign_up .sign_form{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:470px) {
+    .sign_up h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:382px) {
+    .sign_up h2{
+        font-size: 25px;
+    }
+}
