@@ -55,13 +55,14 @@
 @media screen and (max-width:1179px) {
     .features_blows_mind .row {
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     .features_blows_mind .row > *{
         flex-basis: calc(100% / 2 - 30px);
     }
     .features_blows_mind .two_FBM{
-        gap: 30px;
-        flex-basis: calc(100% / 1 - 30px);
+        gap: 60px;
+        flex-basis: calc(100% / 1);
         flex-direction: row;
     }
     .features_blows_mind .two_FBM .FBM{
