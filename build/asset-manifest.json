@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Saas-landing-page/static/css/main.2edc1a0c.css",
+    "main.js": "/Saas-landing-page/static/js/main.2779e425.js",
+    "static/media/header_bg.png": "/Saas-landing-page/static/media/header_bg.a44f13a6b35b9a1160c9.png",
+    "static/media/payment.png": "/Saas-landing-page/static/media/payment.555744c93dc2b99951be.png",
+    "static/media/Image_financial.png": "/Saas-landing-page/static/media/Image_financial.f4d7d9480c3f3c8defd7.png",
+    "static/media/Image-content.png": "/Saas-landing-page/static/media/Image-content.0762539c8567418d17ce.png",
+    "static/media/Header_top_bg.png": "/Saas-landing-page/static/media/Header_top_bg.64494e09c98986970a19.png",
+    "index.html": "/Saas-landing-page/index.html",
+    "main.2edc1a0c.css.map": "/Saas-landing-page/static/css/main.2edc1a0c.css.map",
+    "main.2779e425.js.map": "/Saas-landing-page/static/js/main.2779e425.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2edc1a0c.css",
+    "static/js/main.2779e425.js"
+  ]
+}
