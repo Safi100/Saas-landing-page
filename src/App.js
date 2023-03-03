@@ -8,6 +8,7 @@ import FeaturesBlowsMind from './components/features_blows_mind/Features_blows_m
 import Payment from './components/payment/Payment'
 import SignUp from './components/signUp/SignUp'
 import Download from './components/download/Download'
+import Footer from './components/footer/Footer'
 import './app.css'
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
             <Payment />
             <SignUp />
             <Download />
+            <Footer />
         </>
     )
 }
