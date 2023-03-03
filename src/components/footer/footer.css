@@ -1,0 +1,142 @@
+.footer{
+
+}
+.footer .square{
+    display: inline-block;
+    background: #4F46BA;
+    width: 20px;
+    height: 20px;
+}
+.footer .grid{
+    border-bottom: 2px solid #F8F8FE;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.footer .heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer ul li{
+    cursor: pointer;
+}
+.footer .social{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footer .footer_paragraph{
+    color: #757095;
+    margin-bottom: 30px;
+    max-width: 200px;
+}
+.footer .footer_form{
+    display: flex;
+    background: #F9F9F9;
+    max-width: 390px;
+    margin-bottom: 27px;
+}
+.footer .footer_form input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 0 10px;
+    flex: 1;
+}
+.footer .footer_form input::placeholder{
+    color: #181433;
+    opacity: 0.2;
+    font-weight: 800;
+}
+.footer .footer_form button{
+    border-radius: 0;
+    color: #fff;
+    background: #00E1F0;
+}
+.footer .update_paragraph{
+    color: #181433;
+    opacity: 0.5;
+    font-weight: 600;
+    max-width: 400px;
+}
+@media screen and (max-width: 1024px) {
+    .footer .grid{
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+    .footer .span{
+        grid-column:  span 2;
+    }
+    .footer .footer_form{
+        max-width: unset;
+    }
+}
+
+.footer  .social_profile{
+    color: #757095;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 40px;
+    gap: 40px;
+    justify-content: center;
+}
+.footer .social_profile li{
+    position: relative;
+    cursor: pointer;
+}
+.footer .social_profile li::after{
+    content: '';
+    position: absolute;  
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -5px;
+    background: #757095; 
+    display: block;
+}
+.footer .contact{
+    display: flex;
+    flex-direction: row;
+    color: #757095;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.footer .contact .line{
+    display: inline-block;
+    background: #757095;
+    width: 1px;
+}
+@media screen and (max-width: 754px) {
+    .footer .contact .line{
+        display: none;
+    }
+    .footer .contact{
+        row-gap: 30px;
+    }
+}
+.copyright{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.copyright .heart{
+    color: red;
+}
+.copyright a{
+    font-weight: 800;
+    color: red;
+}
